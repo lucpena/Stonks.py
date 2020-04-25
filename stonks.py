@@ -19,7 +19,7 @@ df = web.DataReader("NFLX", data_source="yahoo", start="2012-01-03", end="2020-0
 
 # Plots the closing price history
 # plt.figure(figsize=(16,8))
-# plt.title("Close Price History (Apple Inc.)")
+# plt.title("Close Price History - Netflix")
 # plt.plot(df["Close"])
 # plt.xlabel("Date", fontsize=18)
 # plt.ylabel("Close Price USD ($)", fontsize=18)
